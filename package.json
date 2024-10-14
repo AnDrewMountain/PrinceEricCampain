@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "postcss style.css -o output.css",
-    "dev": "postcss style.css -o output.css --watch"
+    "dev": "postcss style.css -o output.css --watch",
+    "start": "live-server --watch=."
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
   }
 }
