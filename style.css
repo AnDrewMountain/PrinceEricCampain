@@ -5,6 +5,6 @@
 /* This will be processed by PostCSS and Tailwind */
 body {
     @apply bg-cover bg-center;
-    background-image: url('"C:\Users\User\PrinceEricCampain\PrinceEricCampaignPhoto.jpg"');
+     background-image: url('/PrinceEricCampaignPhoto.jpg'); 
   }
   

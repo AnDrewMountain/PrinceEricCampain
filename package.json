@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "This is a fun website I am making for my buddies school assignment.",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+  "scripts": {    
     "build": "postcss style.css -o output.css",
     "dev": "postcss style.css -o output.css --watch",
     "start": "live-server --watch=."
@@ -13,11 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.13"
+    "postcss": "^8.4.47"
   },
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "autoprefixer": "^10.4.20",
+    "live-server": "^1.2.2",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.13"
   }
 }
