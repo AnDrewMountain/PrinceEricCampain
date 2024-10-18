@@ -3,21 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prince Eric Campaign</title>
+    <title>The Prince's Campaign</title>
     <!-- TailwindCSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="output.css">
-</head>
-<body class="bg-cover bg-center h-screen flex items-center justify-center">
-    <div class="text-center">
-        <h1 class="text-4xl font-bold text-center">Prince Eric's Campaign</h1>
-    </div>
     
+</head>
+<body class="bg-cover bg-center min-h-screen flex flex-col items-center justify-start text-white" style="background-image: url('C:/Users/User/PrinceEricCampain/PrinceEricCampaignPhoto.jpg');">
+    
+    <!-- Box containing title, slogan, and button -->
+    <div class="bg-white bg-opacity-80 p-10 rounded-lg shadow-lg max-w-lg text-center mt-10">
+        <h1 class="text-4xl font-bold text-black mb-4">The Prince's Campaign</h1>
+        <p class="text-xl text-gray-700 italic mb-6">"Won't cost much, just your voice"</p>
+        <button class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-500 transition duration-300">
+            Join the Mission
+        </button>
+    </div>
 
-
-
-
-
+    <!-- Supporters Section underneath the box -->
+    <div class="bg-white bg-opacity-90 p-10 rounded-lg shadow-lg max-w-4xl text-center mt-10">
+        <h2 class="text-3xl font-bold text-black mb-6">Our Supporters</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Supporter 1 -->
+            <div class="p-4 bg-gray-100 rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/100" alt="Supporter 1" class="w-24 h-24 mx-auto rounded-full mb-4">
+                <h3 class="text-xl font-bold text-gray-700">Supporter 1</h3>
+                <p class="text-gray-600">Dedicated Voice Donor</p>
+            </div>
+            <!-- Supporter 2 -->
+            <div class="p-4 bg-gray-100 rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/100" alt="Supporter 2" class="w-24 h-24 mx-auto rounded-full mb-4">
+                <h3 class="text-xl font-bold text-gray-700">Supporter 2</h3>
+                <p class="text-gray-600">Voice for the Prince</p>
+            </div>
+            <!-- Supporter 3 -->
+            <div class="p-4 bg-gray-100 rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/100" alt="Supporter 3" class="w-24 h-24 mx-auto rounded-full mb-4">
+                <h3 class="text-xl font-bold text-gray-700">Supporter 3</h3>
+                <p class="text-gray-600">Strong Advocate</p>
+            </div>
+            <!-- Supporter 4 -->
+            <div class="p-4 bg-gray-100 rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/100" alt="Supporter 4" class="w-24 h-24 mx-auto rounded-full mb-4">
+                <h3 class="text-xl font-bold text-gray-700">Supporter 4</h3>
+                <p class="text-gray-600">Loyal Supporter</p>
+            </div>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
